@@ -19,11 +19,11 @@ Here, I will only consider data regarding all types of business applications in 
 The total number of business applications seems relatively stable but shows a sudden increase in the year 2020, coinciding with the outbreak of the pandemic.
 The raw data shows cyclical behavior within one year. 
 That's why the seasonally adjusted data was plotted additionally and will be used for further analysis. 
-Since even the adjusted data shows large volatility in the year 2020, the dataset was split in two time ranges to compare pre- and pos-pandemic behavior:
+Since even the adjusted data shows large volatility in the year 2020, the dataset was split in two time ranges to compare pre- and post-pandemic behavior:
 Data before 2020 is considered pre-COVID, and data after 2020 post-COVID.
 The data for the year 2020 was omitted in this analysis to take out effects during that re-adjustment phase of the economy directly after the outbreak of the pandemic.
 
-Looking at average monthly applications shows that the numbers approximately doubled after 2020, copmared to the pre-COVID era.
+A look at the average monthly applications shows that the numbers approximately doubled after 2020, copmared to the pre-COVID era.
 
 ## 2. How did the trend in applications change pre- and post-pandemic?
 
@@ -31,7 +31,7 @@ Looking at average monthly applications shows that the numbers approximately dou
 
 The trend in the data was modeled using linear regression. 
 From the plot it can be seen that the number of applications had an increasing trend before the pandemic but has a decreasing trend since 2021.
-This shows that data from pre-pandemic times seems not well suited to predict currents trends in 
+This shows that data from pre-pandemic times seem not well suited to predict currents trends in the close future.
 
 ## 3. Predicting future application numbers
 
@@ -41,7 +41,7 @@ The future number of business applications is very interesting to know for gover
 Using the existing data, I fitted 4 different models to the data to make future predictions:
 Three linear regression models - on all datapoints, only pre-pandemic, and only post-pandemic - and a decision tree.
 I used the models to predict the number of applications in January 2026. 
-Interestingly, the linear regression models for all data and post-COVID, and the decision tree all predicted approx. 430k application.
+Interestingly, the linear regression models for all data and post-COVID, and the decision tree all predicted approx. 430k applications.
 The linear regression on the pre-COVID data predicted 307k applications.
 This discrepancy further highlights that the pre-pandemic data might not be wll suited to predict business applications in the close future,
 but only the true data will tell who was closest!
@@ -55,6 +55,8 @@ In this article, we looked into the number of business application in the United
 3. The trends before the pandemic are not well suited to predict trends in the close future.
 
 The results here are mainly observational and limited to only one measured feature. 
+To address the title question: the number of business applications increased drastically during 2020 but from this data alone, we cannot tell if the pandemic was the cause of this.
+
 The question remains: What caused the surge in business applications in 2020?
 What other features exist that correlate with this data and what are causative parameters to explain the trends observed here?
 
