@@ -14,7 +14,7 @@ Here, I will only consider data regarding all types of business applications in 
 
 ## 1. How did business applications change pre- and post-pandemic?
 
-![plot_application_timeseries.png](imgs/plot_application_timeseries.png)
+<img src="imgs/plot_application_timeseries.png" alt="drawing" width="800"/>
 
 The total number of business applications seems relatively stable but shows a sudden increase in the year 2020, coinciding with the outbreak of the pandemic.
 The raw data shows cyclical behavior within one year. 
@@ -27,7 +27,7 @@ Looking at average monthly applications shows that the numbers approximately dou
 
 ## 2. How did the trend in applications change pre- and post-pandemic?
 
-![trends_pre_post_pandemic.png](imgs/trends_pre_post_pandemic.png)
+<img src="imgs/trends_pre_post_pandemic.png" alt="drawing" width="600"/>
 
 The trend in the data was modeled using linear regression. 
 From the plot it can be seen that the number of applications had an increasing trend before the pandemic but has a decreasing trend since 2021.
@@ -35,7 +35,7 @@ This shows that data from pre-pandemic times seems not well suited to predict cu
 
 ## 3. Predicting future application numbers
 
-![modeling.png](imgs/modeling.png)
+<img src="imgs/modeling.png" alt="drawing" width="600"/>
 
 The future number of business applications is very interesting to know for governments for budget planning.
 Using the existing data, I fitted 4 different models to the data to make future predictions:
