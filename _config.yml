@@ -1,3 +1,7 @@
+# customization
+title: Project Data Science blog post
+description: Here you can find the blog post for my data science project.
+
 # Where things are
 source              : .
 destination         : ./_site
